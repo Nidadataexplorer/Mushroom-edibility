@@ -6,21 +6,30 @@ The dataset used in this project is "mushrooms.csv", containing 8124 instances o
 
 Shape of the Data: (8124, 23)
 Missing Values: No missing values found in the dataset.
+
 2. Data Preprocessing
+   
 Categorical Encoding: Encoded categorical variables using one-hot encoding.
+
 Feature Selection: Removed irrelevant features like 'veil-type' from the dataset.
-3. Exploratory Data Analysis (EDA)
+
+4. Exploratory Data Analysis (EDA)
+   
 Univariate Analysis: Examined the distribution of each feature individually to understand its importance.
+
 Multivariate Analysis: Investigated relationships between features and the target variable ('class').
-4. Feature Importance Analysis
+
+6. Feature Importance Analysis
+   
 Identified important features using correlation analysis. Notable features include 'gill-color' and 'odor'.
-5. Model Training and Evaluation
+
+8. Model Training and Evaluation
+   
 Trained a Decision Tree classifier on the dataset.
 Utilized cross-validation to evaluate the model's performance using accuracy, precision, recall, and F1-score metrics.
+
 Results
 The Decision Tree model achieved the following average scores across different evaluation metrics:
-
-model_param
 Accuracy: 0.914305115574081,
 Precision: 0.9940520446096655,
 Recall: 0.9346938775510203,
